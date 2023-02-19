@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "pepsimod",
+	"version": "${version}",
+	"name": "Pepsi Mod",
+	"description": "i like pepsi :3",
+	"authors": [
+		"Bogans"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bogans.pepsimod.PepsiMod"
+		],
+		"client": [
+			"net.bogans.pepsimod.PepsiModClient"
+		],
+		"fabric-datagen": [
+			"net.bogans.pepsimod.PepsiModDataGenerator"
+		]
+	},
+	"mixins": [
+		"pepsimod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.12",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
