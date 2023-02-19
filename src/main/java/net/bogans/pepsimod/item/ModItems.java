@@ -16,20 +16,18 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item PEPSI = registerItem("pepsi",
             new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).statusEffect(new StatusEffectInstance(StatusEffects.POISON, 250, 0), 1F).build())));
-    public static final Item pepsican = registerItem("pepsican",
+    public static final Item PEPSICAN = registerItem("pepsican",
             new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).statusEffect(new StatusEffectInstance(StatusEffects.POISON, 500, 0), 1F).build())));
-
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(PepsiMod.MOD_ID, name), item);
     }
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ItemGroups.INGREDIENTS, PEPSI);
-        addToItemGroup(ItemGroups.INGREDIENTS, pepsican);
+        addToItemGroup(ItemGroups.INGREDIENTS, PEPSICAN);
 
         addToItemGroup(ModItemGroup.PEPSI, PEPSI);
-        addToItemGroup(ModItemGroup.PEPSI, pepsican);
+        addToItemGroup(ModItemGroup.PEPSI, PEPSICAN);
     }
 
     private static void addToItemGroup(ItemGroup group, Item item) {
