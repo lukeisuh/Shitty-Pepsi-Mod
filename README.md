@@ -12,6 +12,9 @@ it fucking adds pepsi into minecraft, what did you think it did?
 
 p.s please do not "drink" the pepsi
 
+## Crafting
+To craft a pepsi bottle or can, put either a glass block or bucket with a bucket of lava and bucket of water. Happy drinking!
+
 ## License
 
 This Mod is under WTFPL-2.0, meaning "Do What The Fuck You Want To Public License". Feel free to yoink my code.
