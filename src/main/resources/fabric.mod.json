@@ -11,8 +11,8 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT",
-	"icon": "assets/tutorialmod/icon.png",
+	"license": "WTFPL-2.0",
+	"icon": "assets/pepsimod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
