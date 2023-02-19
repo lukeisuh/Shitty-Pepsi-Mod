@@ -8,7 +8,7 @@ This is a Fabric mod for the Minecraft version 1.19.3
 Just chuck this dog shit of a mod into your mods folder and BOOM. pepsi :)
 
 ## Features
-it fucking adds pepsi into minecraft, what did you think would happen?
+it fucking adds pepsi into minecraft, what did you think it did?
 
 p.s please do not "drink" the pepsi
 
