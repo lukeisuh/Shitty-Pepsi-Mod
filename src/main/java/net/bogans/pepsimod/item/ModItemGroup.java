@@ -13,6 +13,6 @@ public class ModItemGroup {
     public static void registerItemGroups() {
         PEPSI = FabricItemGroup.builder(new Identifier(PepsiMod.MOD_ID, "pepsi"))
                 .displayName(Text.translatable("itemgroup.pepsi"))
-                .icon(() -> new ItemStack(ModItems.PEPSI)).build();
+                .icon(() -> new ItemStack(ModItems.PEPSIBOTTLE)).build();
     }
 }

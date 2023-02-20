@@ -14,7 +14,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item PEPSI = registerItem("pepsi",
+    public static final Item PEPSIBOTTLE = registerItem("pepsibottle",
             new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).statusEffect(new StatusEffectInstance(StatusEffects.POISON, 250, 0), 1F).build())));
     public static final Item PEPSICAN = registerItem("pepsican",
             new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).statusEffect(new StatusEffectInstance(StatusEffects.POISON, 500, 0), 1F).build())));
@@ -23,10 +23,10 @@ public class ModItems {
     }
 
     public static void addItemsToItemGroup() {
-        addToItemGroup(ItemGroups.INGREDIENTS, PEPSI);
+        addToItemGroup(ItemGroups.INGREDIENTS, PEPSIBOTTLE);
         addToItemGroup(ItemGroups.INGREDIENTS, PEPSICAN);
 
-        addToItemGroup(ModItemGroup.PEPSI, PEPSI);
+        addToItemGroup(ModItemGroup.PEPSI, PEPSIBOTTLE);
         addToItemGroup(ModItemGroup.PEPSI, PEPSICAN);
     }
 
