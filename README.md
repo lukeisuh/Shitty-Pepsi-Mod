@@ -8,12 +8,18 @@ This is a Fabric mod for the Minecraft version 1.19.3
 Just chuck this dog shit of a mod into your mods folder and BOOM. pepsi :)
 
 ## Features
-it fucking adds pepsi into minecraft, what did you think it did?
+it fucking adds Pepsi into minecraft, what did you think it did?
 
-p.s please do not "drink" the pepsi
+p.s please do not eat the cans/bottles
 
 ## Crafting
-To craft a pepsi bottle or can, put either a glass block or bucket with a bucket of lava and bucket of water. Happy drinking!
+To create Pepsi, put a bucket of lava and water in a crafting table.
+
+To create Cans of Air, put a bucket in a crafting table and get 3.
+
+To create Bottles of Air, put a glass block in a crafting table and get 9.
+
+To create Pepsi Cans/Bottles, put either a Can of Air or a Can of Bottle in a crafting table with Pepsi.
 
 ## License
 

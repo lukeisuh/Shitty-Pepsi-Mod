@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lava_bucket"
+      "item": "pepsimod:bottle"
     },
     {
-      "item": "minecraft:water_bucket"
+      "item": "pepsimod:pepsi"
     }
   ],
   "result": {
-    "item": "pepsimod:pepsi",
+    "item": "pepsimod:pepsibottle",
     "count": 1
   }
 }

@@ -1,6 +1,10 @@
 {
   "item.pepsimod.pepsibottle": "Bottle of Pepsi",
   "item.pepsimod.pepsican": "Can of Pepsi",
+  "item.pepsimod.pepsi": "Pepsi",
+  "item.pepsimod.bottle": "Bottle of Air",
+  "item.pepsimod.can": "Can of Air",
+
 
   "itemgroup.pepsi": "Pepsi Item Group"
 }
